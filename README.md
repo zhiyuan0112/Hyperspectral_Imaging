@@ -17,6 +17,10 @@ In this paper, we propose a deep-learning based method for high quality hyperspe
 
 ### 1. Install the enviromemts
 ```bash
+conda install -c conda-forge python-lmdb
+conda install caffe
+pip install --upgrade git+https://github.com/pytorch/tnt.git@master
+
 pip install -r requirements.txt
 ```
 
